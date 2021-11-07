@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/214962.jpg);
+}
+input{
+    border: none;
+    outline: none;
+    
+}
+.heading{
+    width: 80%;
+}
+.heading h1{
+    font-size: 2rem;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+}
+.thongtin2{
+    width: 70%;
+    position: relative;
+    border-bottom: 2px solid ;
+    margin-bottom: 13px;
+   
+}
+.thongtin{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+.f1{
+    border-bottom: 2px solid;
+    width: 45%;
+    position: relative;
+}
+.f2{
+    border-bottom: 2px solid;
+    width: 50%;
+    margin-left: auto;
+    position: relative;
+}
+label{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+.container{
+    background-repeat: no-repeat ;
+    background-size: 35%;
+    background-position-x: 350px;
+    background-position-y: -260px;
+    display: flex;
+    margin-top: 100px;
+}
+.main-container{
+    background-color: aliceblue;
+    opacity: 0.1;
+    border-radius: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.main-container:hover{
+    opacity: 0.8;
+}
+.button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+.img{
+    width: 100%;
+    border-radius: 27px;
+}
+
