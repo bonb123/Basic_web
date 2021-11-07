@@ -13,10 +13,10 @@ body{
 .navbar{
     display: flex;
     margin-top: 70px;
-    text-align: center;
 }
-.menu{
-    border: 1px solid blue;
+.menu1{
+    position: relative;
+    background-color: rgb(254, 210, 170,0.85);
     margin-left: 120px;
     padding: 5px 20px 5px 20px;
     font-size: 25px;
@@ -24,7 +24,45 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(170, 20, 240);
+    color: rgb(255, 119, 119);
+}
+.menu1::after{
+    content: '';
+    top: 30px;
+    left: 21px;
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    background-color: rgb(21, 151, 229);
+    transition: 0.6s;
+}
+.menu2{
+    position: relative;
+    background-color: rgb(254, 210, 170,0.85);
+    margin-left: 30px;
+    padding: 5px 20px 5px 20px;
+    font-size: 25px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 119, 119);
+}
+.menu2::after{
+    content: '';
+    top: 30px;
+    left: 21px;
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    background-color: rgb(21, 151, 229);
+    transition: 0.6s;
+}
+.menu1:hover::after{
+    width: 75px;
+}
+.menu2:hover::after{
+    width: 147px;
 }
 
 .form-register{
@@ -35,6 +73,7 @@ body{
     margin-bottom: 50px;
     width: 800px;
     height: 600px;
+    box-shadow: 10px 20px 18px 30px rgba(0,0,0,0.2);
 }
 .form{
     width: 60%;
