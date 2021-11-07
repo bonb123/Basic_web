@@ -7,7 +7,24 @@
 body{
     background-image: url(./images/blue_sky.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 115%;
+}
+
+.navbar{
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+}
+.menu{
+    border: 1px solid blue;
+    margin-left: 120px;
+    padding: 5px 20px 5px 20px;
+    font-size: 25px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 20, 240);
 }
 
 .form-register{
