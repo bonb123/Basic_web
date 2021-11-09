@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* ========================================================= */
 
 /* =================== main page ======================= */
@@ -232,6 +231,9 @@ body{
 /* ========================================================================= */
 
 /* ========================= products ============================================= */
+.Another-Item{
+    background-image: url(./images/Aesthetic-Black-Wallpaper13.jpg);
+}
 .container-price{
     /* background-color:  rgba(240, 248, 255,0.5); */
     margin-top: 100px;
@@ -254,69 +256,177 @@ body{
     border: 3px solid rgb(255, 188, 188);
 }
 .price-table{
+    width: 100%;
+    height: 700px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-}
-.Another-Item{
-    background-image: url(./images/Aesthetic-Black-Wallpaper13.jpg);
+    /* background-color: aquamarine; */
 }
 .item{
     position: relative;
-    background-color: rgb(255, 188, 188);
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url(./images/roket.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
     width: 300px;
     height: 300px;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     text-align: center; 
+    text-decoration: none;
     margin-top: 20px;
+    margin-bottom: 20px;
     transition: 0.8s;
 }
+.item-2{
+    position: relative;
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url(./images/moon.jpg);
+    background-size: 120%;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.item-3{
+    position: relative;
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url(./images/galaxy_art.jpg);
+    background-size: 155%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.item-4{
+    position: relative;
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url(./images/sunrise.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.item-5{
+    position: relative;
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url(./images/solar-system.jpg);
+    background-size: 100%;
+    background-position-y: 30px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.item-6{
+    position: relative;
+    /* background-color: rgb(255, 188, 188); */
+    background-image: url(./images/cute.jpg);
+    background-size: 110%;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center; 
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.small-item{
+    width: 60%;
+    height: 40%;
+    margin-left: 120px;
+    margin-top: 180px;
+    background-color: rgb(222, 237, 240);
+    border-radius: 25px;
+}
+.small-item-2{
+    width: 100%;
+    height: 20%;
+    margin-top: 240px;
+    background-color: rgb(222, 237, 240);
+    border-radius: 25px;
+}
+.small-item-3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(222, 237, 240);
+    border-radius: 25px;
+}
 .title-item{
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
     font-family:Arial, Helvetica, sans-serif ;
     text-transform:uppercase;
     padding-top: 15px ;
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
+    color: rgb(136, 158, 175);
 }
-.price-item{
-    font-size: 35px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+.title-item-2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform:uppercase;
+    color: rgb(136, 158, 175);
+}
+.title-item-3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform:uppercase;
+    color: rgb(136, 158, 175);
 }
 .info-item{
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
 }
 .info-item-1{
-    font-size: 17px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-}
-.btn-item{
-    display: inline-block;
-    width: 130px;
-    font-size: 20px;
-    margin-top: 5px;
-    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
     padding-bottom: 10px;
     text-transform: capitalize;
-    text-decoration: none;
-    color: aliceblue;
-    background-color:  rgba(21, 151, 229,0.75);
-    border-radius: 100px;
-    transition: 0.7s;
+    color: rgb(136, 158, 175);
 }
-.btn-item:hover{
-    background-color: rgb(255, 93, 162);
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
-    margin-left: -27px;
-    margin-top: -10px;
+.info-item-2{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(136, 158, 175);
 }
-.btn-item:active{
-    margin-left: 0px;
-    margin-top: 5px;
-    box-shadow: 0px 0px ;
+.info-item-3{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(136, 158, 175);
+}
+.item:hover, .item-2:hover, .item-3:hover, .item-4:hover, .item-5:hover, .item-6:hover{
+    margin-top: -5px;
+    margin-left: 5px;
+    box-shadow: -15px 15px 100px 0px  rgb(255, 93, 162,0.6);
 }
 /* ============================================================================== */
 
